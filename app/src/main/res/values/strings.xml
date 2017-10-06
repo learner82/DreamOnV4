@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dream On</string>
+    <string name="names"> Groom-Bride</string>
+    <string name="place">place</string>
+    <string name="company_dscr"> Your wedding day is special, htrough our photos
+        we will keep your memories fresh for all eternity</string>
+    <string name="date">19/12/2017</string>
+
+    <string name="who_tab_name">Who we are</string>
+    <string name="portfolio">Our Portfolio</string>
+
+    <string name="title_activity_fullscreen">Fullscreen</string>
+    <string name="email"> Email: yourdream@dreamonphotography.gr</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="@dimen/dp2"
+    android:layout_marginEnd="@dimen/dp2"
+    android:layout_marginStart="@dimen/dp2"
+    android:background="@android:drawable/dialog_holo_light_frame">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp100"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/dp4"
+        android:layout_marginEnd="@dimen/dp4"
+        android:layout_marginStart="@dimen/dp4"
+        android:layout_marginTop="@dimen/dp4"
+        android:layout_weight="0.11"
+        android:src="@drawable/a01"
+        tools:ignore="ContentDescription" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_weight="0.03">
+
+        <TextView android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp4"
+            android:ellipsize="marquee"
+            android:lines="1"
+            android:text="@string/names"
+            android:textSize="@dimen/sp16"
+            android:textStyle="bold"/>
+
+        <TextView android:id="@+id/date"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp8"
+            android:layout_marginStart="@dimen/dp8"
+            android:ellipsize="end"
+            android:lines="1"
+            android:scrollHorizontally="true"
+            android:text="@string/date"
+            android:layout_marginTop="@dimen/dp2"
+            android:textSize="@dimen/sp12"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp2"
+            android:text="@string/place"
+            android:textSize="12sp"
+            android:textStyle="italic"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

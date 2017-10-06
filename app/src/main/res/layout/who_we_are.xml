@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/who_we_are"
+    android:background="#90CAF9">
+
+    <ImageView
+        android:layout_margin="@dimen/dp2"
+        android:src="@mipmap/logodreamon"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp150"
+        android:layout_weight="0.59"></ImageView>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:paddingTop="@dimen/dp20"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_weight="0.18"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:text="@string/company_dscr"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/dp2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.41"
+        android:fontFamily="sans-serif-medium"
+        android:text="Address 1: Ilioupoli, 16343 Athens Greece"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.37"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:text="Address 2: Akrotiri, 84700 Santorini Greece"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="@dimen/dp2"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.26"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:text="Phone: +30 6945 100 474"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="@dimen/dp2"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.46"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:text="@string/email"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="@dimen/dp2"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
